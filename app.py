@@ -60,7 +60,7 @@ def send_sms_via_email(number,message,provider,sender_credentials,subject,smpt_s
     email_message=f"Subject:{subject}\nTo:{receiver_email}\n{message}"
     
 if s_text and n  and generate_word:
-    st.header(generate_seq(loaded_model,tokenizer,max_length-1,s_text,n)).
+    st.header(generate_seq(loaded_model,tokenizer,max_length-1,s_text,n))
 
 elif s_text and generate_word and not n:
     st.write('Please input number of words')
