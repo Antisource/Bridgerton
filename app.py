@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import email,smtplib,ssl
 from PIL import Image
 
-json_file = open('model.json'),'r')
+json_file = open('model.json','r')
 loaded_model_json = json_file.read()
 json_file.close()
 loaded_model=model_from_json(loaded_model_json)
