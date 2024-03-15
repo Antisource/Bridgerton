@@ -1,9 +1,9 @@
 
-# Ama Ata Aidoo Language Model
+# Bridgerton NLP SMS Text Generator
 
 
 ## Things to note
-- This is the deployed app with streamlit on Heroku.
+- This is the deployed app with streamlit.
 - Model is found in the model folder as a Jupyter Notebook.
 - Trained model is saved as model.h5 and model.JSON.
  
