@@ -17,7 +17,7 @@ with open('./bridgerton-quotes.txt','r',encoding='utf-8') as file:
 
 
 def generate_seq(model,tokenizer,max_length,seed_text,n_words):
-    in_text seed_text
+    in_text=seed_text
 
     for i in range(in_words):
         encoded=tokenizer.texts_tosequences([in_text])[0]
